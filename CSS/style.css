@@ -1,0 +1,126 @@
+/* body Style */
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #292828;
+}
+
+.main_container{
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* NavBar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1{
+    font-size: 30px;
+}
+
+.nav_list ul{
+    display: flex;
+}
+
+.nav_list li{
+    list-style: none;
+    margin-right: 30px;
+}
+ 
+.nav_list li a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #292828;
+}
+
+
+/* Home_page */
+.home_page{
+    height: 500px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home_article{
+    width: 500px;
+}
+
+.home_article h1{
+    font-size: 60px;
+}
+
+.home_article span{
+    color: coral;
+}
+
+.home_article p{
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.home_article a{
+    text-decoration: none;
+    color: white;
+    background-color: coral;
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
+.home_image img{
+    height: 430px;
+    width: 370px;
+    background-image: url('/images/shapes/shape-2.png');
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+    background-position: bottom;
+}
+
+/* About Me section */
+.about_me{
+    height: 500px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_me_image img{
+    height: 345px;
+    width: 436px;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+
+.about_me_article{
+    width: 500px;
+}
+
+.about_me_article h1{
+    font-size: 50px;
+}
+
+.about_me_article h1 span{
+    color: coral;
+}
+
+.about_me_article p span{
+    font-weight: 700;
+}
+
+/* Experience section */
+.experience{
+    height: 500px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.experience h1{
+    font-size: 50px;
+    text-align: center;
+}

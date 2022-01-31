@@ -120,7 +120,17 @@ body{
     padding: 20px;
 }
 
-.experience h1{
+.experience_title h1{
     font-size: 50px;
     text-align: center;
+}
+ 
+.experience_title h1 span{
+    color: coral;
+}
+
+.image_resize {
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
 }

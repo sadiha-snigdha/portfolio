@@ -1,35 +1,35 @@
 /* body Style */
-body{
+body {
     font-family: 'Poppins', sans-serif;
     color: #292828;
 }
 
-.main_container{
+.main_container {
     width: 90%;
     margin: 0 5%;
 }
 
 /* NavBar */
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navbar h1{
+.navbar h1 {
     font-size: 30px;
 }
 
-.nav_list ul{
+.nav_list ul {
     display: flex;
 }
 
-.nav_list li{
+.nav_list li {
     list-style: none;
     margin-right: 30px;
 }
- 
-.nav_list li a{
+
+.nav_list li a {
     text-decoration: none;
     font-weight: 700;
     color: #292828;
@@ -37,7 +37,7 @@ body{
 
 
 /* Home_page */
-.home_page{
+.home_page {
     height: 500px;
     margin: 20px;
     padding: 20px;
@@ -46,24 +46,24 @@ body{
     align-items: center;
 }
 
-.home_article{
+.home_article {
     width: 500px;
 }
 
-.home_article h1{
+.home_article h1 {
     font-size: 60px;
 }
 
-.home_article span{
+.home_article span {
     color: coral;
 }
 
-.home_article p{
+.home_article p {
     font-weight: 600;
     margin-bottom: 40px;
 }
 
-.home_article a{
+.home_article a {
     text-decoration: none;
     color: white;
     background-color: coral;
@@ -71,7 +71,7 @@ body{
     border-radius: 20px;
 }
 
-.home_image img{
+.home_image img {
     height: 430px;
     width: 370px;
     padding-left: 30px;
@@ -82,7 +82,7 @@ body{
 }
 
 /* About Me section */
-.about_me{
+.about_me {
     height: 500px;
     margin: 20px;
     padding: 20px;
@@ -91,42 +91,42 @@ body{
     align-items: center;
 }
 
-.about_me_image img{
+.about_me_image img {
     height: 345px;
     width: 436px;
     margin-left: 60px;
     border-radius: 10px;
 }
 
-.about_me_article{
+.about_me_article {
     width: 500px;
 }
 
-.about_me_article h1{
+.about_me_article h1 {
     font-size: 50px;
 }
 
-.about_me_article h1 span{
+.about_me_article h1 span {
     color: coral;
 }
 
-.about_me_article p span{
+.about_me_article p span {
     font-weight: 700;
 }
 
 /* Experience section */
-.skill{
+.skill {
     height: 500px;
     margin: 20px;
     padding: 20px;
 }
 
-.skill_title h1{
+.skill_title h1 {
     font-size: 50px;
     text-align: center;
 }
- 
-.skill_title h1 span{
+
+.skill_title h1 span {
     color: coral;
 }
 
@@ -136,12 +136,12 @@ body{
     object-position: center;
 }
 
-.skill_item{
+.skill_item {
     display: flex;
     justify-content: space-between;
 }
 
-.skill_item h2{
+.skill_item h2 {
     text-align: center;
 }
 
@@ -185,50 +185,50 @@ body{
 }
 
 /* Experience Section */
-.experience{
+.experience {
     height: 500px;
     margin: 20px;
     padding: 20px;
 }
 
-.experience_title h1{
+.experience_title h1 {
     font-size: 50px;
     text-align: center;
 }
 
-.experience_title h1 span{
+.experience_title h1 span {
     color: coral;
 }
 
-.experience_item h3{
+.experience_item h3 {
     font-size: 25px;
 }
 
-.experience_item p{
+.experience_item p {
     font-weight: 600;
 }
 
-.experience_item span{
+.experience_item span {
     color: coral;
 }
 
 
 /* My Work Section */
-.my_work{
+.my_work {
     margin: 20px;
     padding: 20px;
 }
 
-.work_title h1{
+.work_title h1 {
     font-size: 50px;
     text-align: center;
 }
 
-.work_title h1 span{
+.work_title h1 span {
     color: coral;
 }
 
-.work_row{
+.work_row {
     display: flex;
 }
 
@@ -238,14 +238,14 @@ body{
     object-position: center;
 }
 
-.work_row img{
+.work_row img {
     padding: 10px;
     border-radius: 20px;
 }
 
 /* Footer */
 
-footer{
+footer {
     height: 300px;
     background-color: black;
     text-align: center;
@@ -253,7 +253,7 @@ footer{
     padding-top: 7%;
 }
 
-footer h1{
+footer h1 {
     font-size: 50px;
     color: coral;
 }

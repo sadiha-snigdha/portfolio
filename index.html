@@ -7,17 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sadiha Nowmi</title>
 
-    <!-- Fonts -->
+    <!------------------------------------------------------
+                       Google Fonts 
+    ------------------------------------------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
 
-    <!-- favicon -->
+    <!------------------------------------------------------
+                          favicon 
+    ------------------------------------------------------->
     <link rel="shortcut icon" href="images/icon/favicon.png" type="image/x-icon">
 
-    <!-- CSS Stylesheet -->
+    <!------------------------------------------------------
+                     CSS Stylesheet 
+    ------------------------------------------------------->
     <link rel="stylesheet" href="css/style.css">
 
 
@@ -25,26 +31,32 @@
 
 <body>
     <section class="main_container">
+
+        <!-- Custom Cursors -->
+        <div class="cursor-1"></div>
+        <div class="cursor-2"></div>
+
         <!-- Heading starts -->
         <header>
-            <!-- Navigation Bar -->
+            <!-- Navigation Bar Starts -->
             <section class="navbar">
                 <div>
                     <h1>Portfolio</h1>
                 </div>
                 <div class="nav_list">
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About Me</a></li>
-                        <li><a href="">Skills</a></li>
-                        <li><a href="">Experience</a></li>
-                        <li><a href="">My Work</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#work">My Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </section>
+            <!-- Navigation Bar Ends -->
 
-            <!-- Home -->
+            <!-- Home Starts-->
             <section class="home_page">
                 <div class="home_article">
                     <h1>I'm a <span class="auto-type"></span></h1>
@@ -55,7 +67,9 @@
                     <img src="images/person/Sadiha_Nowmi.png" alt="">
                 </div>
             </section>
+            <!-- Home Ends-->
         </header>
+        <!-- Heading Ends -->
 
         <hr>
 
@@ -150,14 +164,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-        var typed = new Typed(".auto-type", {
-        strings: ["Front-end Web Developer", "Graphics Designer"],
-        typeSpeed: 100,
-        backSpeed: 100,
-        loop: true
-})
-    </script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
